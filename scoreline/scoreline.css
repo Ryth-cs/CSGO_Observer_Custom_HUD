@@ -1,0 +1,73 @@
+.hud {
+    width: 1080px;
+    height: 540px;
+    background-color: #C4C4C4;
+}
+
+.base {
+    width: 1080px;
+    height: 95px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FF8989;
+}
+
+.left_logo {
+    width: 70px;
+    height: 70px;
+    background-color: #FFC554;
+}
+
+.left_name {
+    width: 325px;
+    height: 70px;
+    background-color: #F6DC97;
+}
+
+.left_score {
+    width: 70px;
+    height: 70px;
+    background-color: #FFC554;
+}
+
+.timer_round {
+    width: 150px;
+    height: 70px;
+    background-color: #69FFB7;
+}
+
+.right_logo {
+    width: 70px;
+    height: 70px;
+    background-color: #71A1FF;
+}
+
+.right_name {
+    width: 325px;
+    height: 70px;
+    background-color: #99BCFF;
+}
+
+.right_score {
+    width: 70px;
+    height: 70px;
+    background-color: #71A1FF;
+}
+
+.left_defuse {
+    width: 395px;
+    height: 25px;
+    background-color: #FF6BE7;
+}
+
+.match_status {
+    width: 290px;
+    height: 25px;
+    background-color: #FFA3F6;
+}
+
+.right_defuse {
+    width: 395px;
+    height: 25px;
+    background-color: #FF6BE7;
+}
