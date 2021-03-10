@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.master {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: hotpink;
+}
+
+.map {
+    width: 420px;
+    height: 540px;
+    background-color: #00CFC3;
+}
+
+.scoreline {
+    width: 1080px;
+    height: 540px;
+    background-color: #FFB9E7;
+}
+
+.players_alive {
+    width: 420px;
+    height: 540px;
+    background-color: #00CFC3;
+}
+
+.t_side {
+    width: 600px;
+    height: 540px;
+    background-color: #E76F6F;
+}
+
+.current_player {
+    width: 780px;
+    height: 540px;
+    background-color: #B0A9FF;
+}
+
+.ct_side {
+    width: 600px;
+    height: 540px;
+    align-content: right;
+    background-color: #E76F6F;
+}
+
+.t_player {
+    width: 400px;
+    height: 75px;
+    border-radius: 5px;
+    background-color: purple;
+}
+
+.ct_player {
+    width: 400px;
+    height: 75px;
+    border-radius: 5px;
+    background-color: purple;
+}
