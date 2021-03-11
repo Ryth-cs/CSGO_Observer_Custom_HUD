@@ -1,4 +1,4 @@
-.base {
+.players_alive_base {
     width: 420px;
     height: 540px;
     display: flex;
@@ -6,13 +6,13 @@
     background-color: #C4C4C4;
 }
 
-.top_margin {
+.players_alive_top_margin {
     width: 420px;
     height: 20px;
     background-color: #FDA3FF;
 }
 
-.left_margin {
+.players_alive_left_margin {
     width: 164px;
     height: 520px;
     background-color: #FFC554;
@@ -26,7 +26,7 @@
     background-color: #FF7D7D;
 }
 
-.right_margin {
+.players_alive_right_margin {
     width: 40px;
     height: 520px;
     background-color: #FF6BE7;

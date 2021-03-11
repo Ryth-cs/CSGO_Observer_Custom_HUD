@@ -1,0 +1,117 @@
+.current_player_base {
+    width: 720px;
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #C4C4C4;
+}
+
+.current_player_top_margin {
+    width: 720px;
+    height: 338px;
+    background-color: #FF1F1F;
+}
+
+.current_player_left_margin {
+    width: 185px;
+    height: 50px;
+    background-color: #FF1F1F;
+}
+
+.name_bar {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #B0FFC2;
+}
+
+.team_logo {
+    width: 50px;
+    height: 50px;
+    background-color: #81B3FF;
+}
+
+.current_player_right_margin {
+    width: 185px;
+    height: 50px;
+    background-color: #FF1F1F;
+}
+
+
+/* Info Bar */
+.info_bar {
+    width: 710px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FF8989;
+}
+
+.current_player_left_margin_s {
+    width: 5px;
+    height: 50px;
+    background-color: #FF1F1F;
+}
+
+.health_status {
+    width: 90px;
+    height: 50px;
+    background-color: #75E1DB;
+}
+
+.armour_status {
+    width: 90px;
+    height: 50px;
+    background-color: #A7FF99;
+}
+
+.blank {
+    width: 50px;
+    height: 50px;
+    background-color: #FF8989;
+}
+
+.kad {
+    width: 200px;
+    height: 50px;
+    background-color: #A2D0FB;
+}
+
+.adr {
+    width: 50px;
+    height: 50px;
+    background-color: #FBD2A2;
+}
+
+.kit {
+    width: 50px;
+    height: 50px;
+    background-color: #F8B566;
+}
+
+.grenades {
+    width: 90px;
+    height: 50px;
+    background-color: #75E1DB;
+}
+
+.ammo {
+    width: 90px;
+    height: 50px;
+    background-color: #A7FF99;
+}
+
+.current_player_right_margin_s {
+    width: 5px;
+    height: 50px;
+    background-color: #FF1F1F;
+}
+
+
+/* Bot Margin / Sponsor */
+.current_player_bot_margin {
+    width: 720px;
+    height: 102px;
+    background-color: #FFA4EB;
+}
