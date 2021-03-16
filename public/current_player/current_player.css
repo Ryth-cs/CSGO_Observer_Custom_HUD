@@ -3,19 +3,19 @@
     height: 540px;
     display: flex;
     flex-wrap: wrap;
-    background-color: #C4C4C4;
+    /* background-color: #C4C4C4; */
 }
 
 .current_player_top_margin {
     width: 720px;
     height: 338px;
-    background-color: #FF1F1F;
+    /* background-color: #FF1F1F; */
 }
 
 .current_player_left_margin {
     width: 185px;
     height: 50px;
-    background-color: #FF1F1F;
+    /* background-color: #FF1F1F; */
 }
 
 .name_bar {
@@ -35,7 +35,7 @@
 .current_player_right_margin {
     width: 185px;
     height: 50px;
-    background-color: #FF1F1F;
+    /* background-color: #FF1F1F; */
 }
 
 
@@ -51,7 +51,7 @@
 .current_player_left_margin_s {
     width: 5px;
     height: 50px;
-    background-color: #FF1F1F;
+    /* background-color: #FF1F1F; */
 }
 
 .health_status {
@@ -105,7 +105,7 @@
 .current_player_right_margin_s {
     width: 5px;
     height: 50px;
-    background-color: #FF1F1F;
+    /* background-color: #FF1F1F; */
 }
 
 
@@ -113,5 +113,5 @@
 .current_player_bot_margin {
     width: 720px;
     height: 102px;
-    background-color: #FFA4EB;
+    /* background-color: #FFA4EB; */
 }

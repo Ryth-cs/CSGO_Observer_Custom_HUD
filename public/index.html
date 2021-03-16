@@ -10,14 +10,14 @@
         @import url(./players_alive/players_alive.css);
         @import url(./left_side/left_side.css);
         @import url(./current_player/current_player.css);
-        /* @import url(./right_side/right_side.css); */
+        @import url(./right_side/right_side.css);
     </style>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
 </head>
-<body>
+<body class="main_body">
     <section class="master">
         <section class="map">
-            Map
+            <!-- Map -->
         </section>
         <section id="scoreline"></section>
         <section id="players_alive"></section>
@@ -25,9 +25,7 @@
     <section class="master">
         <section id="left_side"></section>
         <section id="current_player"></section>
-        <section class="right_side">
-            Right Side
-        </section>
+        <section id="right_side"></section>
     </section>
 
     <script>
@@ -39,7 +37,7 @@
         $( "#left_side" ).load( "./left_side/left_side.html #main");
         console.log("Loading current_player...");
         $( "#current_player" ).load( "./current_player/current_player.html #main");
-        // $( "#right_side" ).load( "./right_side/right_side.html #main");
+        $( "#right_side" ).load( "./right_side/right_side.html #main");
     </script>
 
 </body>

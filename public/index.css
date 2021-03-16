@@ -3,46 +3,50 @@
     padding: 0;
 }
 
+.main_body {
+    background-image: url("base_layer.png");
+}
+
 .master {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color: hotpink;
+    /* background-color: hotpink; */
 }
 
 .map {
     width: 420px;
     height: 540px;
-    background-color: #00CFC3;
+    /* background-color: #00CFC3; */
 }
 
 .scoreline {
     width: 1080px;
     height: 540px;
-    background-color: #FFB9E7;
+    /* background-color: #FFB9E7; */
 }
 
 .players_alive {
     width: 420px;
     height: 540px;
-    background-color: #00CFC3;
+    /* background-color: #00CFC3; */
 }
 
 .left_side {
     width: 600px;
     height: 540px;
-    background-color: #E76F6F;
+    /* background-color: #E76F6F; */
 }
 
 .current_player {
     width: 780px;
     height: 540px;
-    background-color: #B0A9FF;
+    /* background-color: #B0A9FF; */
 }
 
 .right_side {
     width: 600px;
     height: 540px;
     align-content: right;
-    background-color: #E76F6F;
+    /* background-color: #E76F6F; */
 }

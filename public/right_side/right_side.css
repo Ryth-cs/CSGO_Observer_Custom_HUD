@@ -1,4 +1,4 @@
-.left_side_base {
+.right_side_base {
     width: 600px;
     height: 540px;
     display: flex;
@@ -6,25 +6,25 @@
     /* background-color: #C4C4C4; */
 }
 
-.left_side_left_section {
+.right_side_right_section {
     width: 40px;
     height: 540px;
     /* background-color: #FF8BEC; */
 }
 
-.left_side_middle_section {
+.right_side_middle_section {
     width: 350px;
     height: 540px;
     /* background-color: #FF1F1F; */
 }
 
-.left_side_top_margin {
+.right_side_top_margin {
     width: 350px;
     height: 96px;
     /* background-color: #FF4A4A; */
 }
 
-.left_info {
+.right_info {
     width: 350px;
     height: 410px;
     display: flex;
@@ -33,25 +33,25 @@
     /* background-color: #75E1DB; */
 }
 
-.left_banner {
+.right_banner {
     width: 350px;
     height: 70px;
     background-color: #B0FFC2;
 }
 
-.left_player_base {
+.right_player_base {
     width: 350px;
     height: 64px;
     background-color: #FF7D7D;
 }
 
-.left_side_bot_margin {
+.right_side_bot_margin {
     width: 350px;
     height: 34px;
     /* background-color: #857583; */
 }
 
-.left_side_right_section {
+.right_side_left_section {
     width: 210px;
     height: 540px;
     /* background-color: #FF0000; */
@@ -60,50 +60,50 @@
 
 /* Individual segments */
 
-.left_player_base_row {
+.right_player_base_row {
     width: 350px;
     height: 32px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.left_player_base_health {
+.right_player_base_health {
     width: 55px;
     height: 32px;
     background-color: #73905C;
 }
 
-.left_player_base_username {
+.right_player_base_username {
     width: 200px;
     height: 32px;
     background-color: #8987FF;
 }
 
-.left_player_base_weapon {
+.right_player_base_weapon {
     width: 95px;
     height: 32px;
     background-color: #B45C5C;
 }
 
-.left_player_base_armour {
+.right_player_base_armour {
     width: 55px;
     height: 32px;
     background-color: #BBFD88;
 }
 
-.left_player_base_money {
+.right_player_base_money {
     width: 100px;
     height: 32px;
     background-color: #DCB376;
 }
 
-.left_player_base_kd {
+.right_player_base_kd {
     width: 105px;
     height: 32px;
     background-color: #D58FFF;
 }
 
-.left_player_base_grenades {
+.right_player_base_grenades {
     width: 90px;
     height: 32px;
     background-color: #84C4FF;

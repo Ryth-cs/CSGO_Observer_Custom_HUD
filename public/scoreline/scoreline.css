@@ -1,7 +1,11 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .hud {
     width: 1080px;
     height: 540px;
-    background-color: #C4C4C4;
+    /* background-color: #C4C4C4; */
 }
 
 .base {
@@ -9,49 +13,91 @@
     height: 95px;
     display: flex;
     flex-wrap: wrap;
-    background-color: #FF8989;
+    /* background-color: #FF8989; */
 }
 
 .left_logo {
     width: 70px;
     height: 70px;
-    background-color: #FFC554;
+    background-image: url("../assets/team_logos/Mouz.png");
+    background-size: 70px 70px;
+    background-color: #1a1c1b;
 }
 
 .left_name {
     width: 325px;
     height: 70px;
-    background-color: #F6DC97;
+    line-height: 70px;
+    text-align: center;
+    font-size: 32px;
+    color: #FFC554;
+    background-color: #282b29;
 }
 
 .left_score {
     width: 70px;
     height: 70px;
-    background-color: #FFC554;
+    line-height: 70px;
+    text-align: center;
+    font-size: 32px;
+    color: #FFC554;
+    background-color: #1a1c1b;
 }
 
 .timer_round {
     width: 150px;
     height: 70px;
-    background-color: #69FFB7;
+    background-color: #282b29;
+    opacity: 0.5;
+    /* background-color: #69FFB7; */
+}
+
+.top_timer {
+    width: 150px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    font-size: 32px;
+    color: #71A1FF;
+    /* background-color: #FFA3F6; */
+}
+
+.bot_timer {
+    width: 150px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    font-size: 16px;
+    color: #71A1FF;
+    /* background-color: #FF6BE7; */
 }
 
 .right_logo {
     width: 70px;
     height: 70px;
-    background-color: #71A1FF;
+    background-image: url("../assets/team_logos/Fnatic.png");
+    background-size: 70px 70px;
+    background-color: #1a1c1b;
 }
 
 .right_name {
     width: 325px;
     height: 70px;
-    background-color: #99BCFF;
+    line-height: 70px;
+    text-align: center;
+    font-size: 32px;
+    color: #71A1FF;
+    background-color: #282b29;
 }
 
 .right_score {
     width: 70px;
     height: 70px;
-    background-color: #71A1FF;
+    line-height: 70px;
+    text-align: center;
+    font-size: 32px;
+    color: #71A1FF;
+    background-color: #1a1c1b;
 }
 
 .left_defuse {
