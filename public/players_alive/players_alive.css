@@ -1,3 +1,7 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .players_alive_base {
     width: 420px;
     height: 540px;
@@ -38,6 +42,10 @@
 .players_alive_text {
     width: 216px;
     height: 17px;
+    line-height: 17px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
     background-color: #BBFD88;
 }
 
@@ -50,17 +58,29 @@
 .players_alive_left {
     width: 70px;
     height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 32px;
+    color: #FFFFFF;
     background-color: #B0FFC2;
 }
 
 .players_alive_versus {
     width: 76px;
     height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
     background-color: #71A1FF;
 }
 
 .players_alive_right {
     width: 70px;
     height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 32px;
+    color: #FFFFFF;
     background-color: #B0FFC2;
 }

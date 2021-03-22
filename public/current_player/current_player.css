@@ -1,3 +1,7 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .current_player_base {
     width: 720px;
     height: 540px;
@@ -30,6 +34,30 @@
     width: 50px;
     height: 50px;
     background-color: #81B3FF;
+    background-image: url("../assets/team_logos/Fnatic.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+}
+
+.IGN {
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    background-color: #FF83F3;
+}
+
+.flag {
+    width: 80px;
+    height: 50px;
+    background-color: #FA8484;
+    background-image: url("../assets/flags/United-Kingdom.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 40px;
 }
 
 .current_player_right_margin {
@@ -57,48 +85,218 @@
 .health_status {
     width: 90px;
     height: 50px;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #75E1DB;
+}
+
+.health_icon {
+    width: 25px;
+    height: 25px;
+    background-image: url("../assets/elements/health_icon.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px 25px;
+    padding-top: 13px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+}
+
+.health_value {
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 26px;
+    color: #000;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 5px;
 }
 
 .armour_status {
     width: 90px;
     height: 50px;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #A7FF99;
 }
 
-.blank {
+.armour_icon {
+    width: 25px;
+    height: 25px;
+    background-image: url("../assets/elements/armour_icon.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px 25px;
+    padding-top: 13px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+}
+
+.armour_value {
     width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 26px;
+    color: #000;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.round_kills {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #A2D0FB;
+}
+
+.round_kills_icon {
+    width: 25px;
+    height: 25px;
+    background-image: url("../assets/elements/round_kills_icon.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25px 25px;
+    padding-top: 13px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+}
+
+.round_kills_value {
+    width: 25px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 18px;
+    color: #000;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.KAD {
+    width: 160px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FBD2A2;
+}
+
+.letter {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    /* background-color: aqua; */
+}
+
+.value {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    /* background-color: red; */
+}
+
+.kills {
+    width: 53px;
+    height: 50px;
+    background-color: #FFF;
+}
+
+.assists {
+    width: 54px;
     height: 50px;
     background-color: #FF8989;
 }
 
-.kad {
-    width: 200px;
+.deaths {
+    width: 53px;
     height: 50px;
-    background-color: #A2D0FB;
+    background-color: #FFF;
 }
 
-.adr {
-    width: 50px;
+.ADR {
+    width: 70px;
     height: 50px;
-    background-color: #FBD2A2;
+    background-color: #A2D0FB;
 }
 
 .kit {
     width: 50px;
     height: 50px;
     background-color: #F8B566;
+    background-image: url("../assets/elements/defuse.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px 30px;
 }
 
 .grenades {
-    width: 90px;
+    width: 100px;
     height: 50px;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #75E1DB;
 }
 
-.ammo {
-    width: 90px;
+.grenade_one {
+    width: 25px;
     height: 50px;
+    background-image: url("../assets/grenades/weapon_flashbang.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 25px;
+}
+
+.grenade_two {
+    width: 25px;
+    height: 50px;
+    background-image: url("../assets/grenades/weapon_smokegrenade.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 25px;
+}
+
+.grenade_three {
+    width: 25px;
+    height: 50px;
+    background-image: url("../assets/grenades/weapon_molotov.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 25px;
+}
+
+.grenade_four {
+    width: 25px;
+    height: 50px;
+    background-image: url("../assets/grenades/weapon_hegrenade.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 25px;
+}
+
+.ammo {
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
     background-color: #A7FF99;
 }
 
