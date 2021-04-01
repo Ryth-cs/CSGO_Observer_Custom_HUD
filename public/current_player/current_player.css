@@ -1,5 +1,5 @@
 * {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .current_player_base {
@@ -254,50 +254,54 @@
     background-color: #75E1DB;
 }
 
-.grenade_one {
+.grenade {
     width: 25px;
     height: 50px;
-    background-image: url("../assets/grenades/weapon_flashbang.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto 25px;
+}
+
+.grenade_one {
+    background-image: url("../assets/grenades/weapon_flashbang.png");
 }
 
 .grenade_two {
-    width: 25px;
-    height: 50px;
     background-image: url("../assets/grenades/weapon_smokegrenade.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto 25px;
 }
 
 .grenade_three {
-    width: 25px;
-    height: 50px;
     background-image: url("../assets/grenades/weapon_molotov.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto 25px;
 }
 
 .grenade_four {
-    width: 25px;
-    height: 50px;
     background-image: url("../assets/grenades/weapon_hegrenade.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto 25px;
 }
 
 .ammo {
     width: 80px;
     height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #A7FF99;
+}
+
+.current_clip {
+    width: 40px;
+    height: 50px;
     line-height: 50px;
-    text-align: center;
+    text-align: right;
     font-size: 24px;
     color: #000;
-    background-color: #A7FF99;
+}
+
+.current_ammo {
+    width: 40px;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
 }
 
 .current_player_right_margin_s {

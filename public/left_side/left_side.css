@@ -1,110 +1,168 @@
 .left_side_base {
-    width: 600px;
-    height: 540px;
-    display: flex;
-    flex-wrap: wrap;
-    /* background-color: #C4C4C4; */
+  width: 600px;
+  height: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: #C4C4C4; */
 }
 
 .left_side_left_section {
-    width: 40px;
-    height: 540px;
-    /* background-color: #FF8BEC; */
+  width: 40px;
+  height: 540px;
+  /* background-color: #FF8BEC; */
 }
 
 .left_side_middle_section {
-    width: 350px;
-    height: 540px;
-    /* background-color: #FF1F1F; */
+  width: 350px;
+  height: 540px;
+  /* background-color: #FF1F1F; */
 }
 
 .left_side_top_margin {
-    width: 350px;
-    height: 96px;
-    /* background-color: #FF4A4A; */
+  width: 350px;
+  height: 96px;
+  /* background-color: #FF4A4A; */
 }
 
 .left_info {
-    width: 350px;
-    height: 410px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* background-color: #75E1DB; */
+  width: 350px;
+  height: 410px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* background-color: #75E1DB; */
 }
 
 .left_banner {
-    width: 350px;
-    height: 70px;
-    background-color: #B0FFC2;
+  width: 350px;
+  height: 70px;
+  background-color: #b0ffc2;
 }
 
 .left_player_base {
-    width: 350px;
-    height: 64px;
-    background-color: #FF7D7D;
+  width: 350px;
+  height: 64px;
+  background-color: #ff7d7d;
 }
 
 .left_side_bot_margin {
-    width: 350px;
-    height: 34px;
-    /* background-color: #857583; */
+  width: 350px;
+  height: 34px;
+  /* background-color: #857583; */
 }
 
 .left_side_right_section {
-    width: 210px;
-    height: 540px;
-    /* background-color: #FF0000; */
+  width: 210px;
+  height: 540px;
+  /* background-color: #FF0000; */
 }
-
 
 /* Individual segments */
 
 .left_player_base_row {
-    width: 350px;
-    height: 32px;
-    display: flex;
-    flex-wrap: wrap;
+  width: 350px;
+  height: 32px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .left_player_base_health {
-    width: 55px;
-    height: 32px;
-    background-color: #73905C;
+  width: 55px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  background-color: #73905c;
 }
 
 .left_player_base_username {
-    width: 200px;
-    height: 32px;
-    background-color: #8987FF;
+  width: 200px;
+  height: 32px;
+  line-height: 32px;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  background-color: #8987ff;
 }
 
 .left_player_base_weapon {
-    width: 95px;
-    height: 32px;
-    background-color: #B45C5C;
+  width: 95px;
+  height: 32px;
+  background-image: url("../assets/weapons/sg556.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90% auto;
+  background-color: #b45c5c;
 }
 
 .left_player_base_armour {
-    width: 55px;
-    height: 32px;
-    background-color: #BBFD88;
+  width: 55px;
+  height: 32px;
+  background-image: url("../assets/elements/armour_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px 25px;
+  background-color: #bbfd88;
 }
 
 .left_player_base_money {
-    width: 100px;
-    height: 32px;
-    background-color: #DCB376;
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  background-color: #dcb376;
 }
 
 .left_player_base_kd {
-    width: 105px;
-    height: 32px;
-    background-color: #D58FFF;
+  width: 100px;
+  height: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left_player_kills_icon {
+  width: 25px;
+  height: 32px;
+  background-image: url("../assets/elements/round_kills_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px 15px;
+  background-color: #fff;
+}
+
+.left_player_kills_value {
+  width: 25px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}
+
+.left_player_deaths_icon {
+  width: 25px;
+  height: 32px;
+  background-image: url("../assets/elements/death_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px 15px;
+  background-color: #ff6;
+}
+
+.left_player_deaths_value {
+  width: 25px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
 }
 
 .left_player_base_grenades {
-    width: 90px;
-    height: 32px;
-    background-color: #84C4FF;
+  width: 95px;
+  height: 32px;
+  background-color: #84c4ff;
 }
