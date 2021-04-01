@@ -1,127 +1,187 @@
-* {
-    font-family: 'Ubuntu', sans-serif;
-}
-
 .hud {
-    width: 1080px;
-    height: 540px;
-    /* background-color: #C4C4C4; */
+  width: 1080px;
+  height: 540px;
+  /* background-color: #C4C4C4; */
 }
 
 .base {
-    width: 1080px;
-    height: 95px;
-    display: flex;
-    flex-wrap: wrap;
-    /* background-color: #FF8989; */
+  width: 1080px;
+  height: 95px;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: #FF8989; */
 }
 
 .left_logo {
-    width: 70px;
-    height: 70px;
-    background-color: #FFC554;
-    /* background-image: url("../assets/team_logos/Mouz.png");
+  width: 70px;
+  height: 70px;
+  background-color: #ffc554;
+  /* background-image: url("../assets/team_logos/Mouz.png");
     background-size: 70px 70px;
     background-color: #1a1c1b; */
 }
 
 .left_name {
-    width: 325px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    font-size: 32px;
-    color: #FFFFFF;
-    background-color: #F6DC97;
-    /* background-color: #282b29; */
+  width: 325px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  background-color: #f6dc97;
+  /* background-color: #282b29; */
 }
 
 .left_score {
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    font-size: 32px;
-    color: #FFFFFF;
-    background-color: #FFC554;
-    /* background-color: #1a1c1b; */
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  background-color: #ffc554;
+  /* background-color: #1a1c1b; */
 }
 
 .timer_round {
-    width: 150px;
-    height: 70px;
-    background-color: #282b29;
-    /* opacity: 0.8; */
-    /* background-color: #69FFB7; */
+  width: 150px;
+  height: 70px;
+  background-color: #282b29;
+  /* opacity: 0.8; */
+  /* background-color: #69FFB7; */
 }
 
 .top_timer {
-    width: 150px;
-    height: 41px;
-    line-height: 41px;
-    text-align: center;
-    font-size: 32px;
-    color: #FFFFFF;
-    background-color: #69FFB7;
-    /* background-color: #FFA3F6; */
+  width: 150px;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  background-color: #69ffb7;
+  /* background-color: #FFA3F6; */
 }
 
 .bot_timer {
-    width: 150px;
-    height: 29px;
-    line-height: 29px;
-    text-align: center;
-    font-size: 16px;
-    color: #FFFFFF;
-    background-color: #69FFFF;
-    /* background-color: #FF6BE7; */
+  width: 150px;
+  height: 29px;
+  line-height: 29px;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #69ffff;
+  /* background-color: #FF6BE7; */
 }
 
 .right_logo {
-    width: 70px;
-    height: 70px;
-    background-color: #71A1FF;
-    /* background-image: url("../assets/team_logos/Fnatic.png");
+  width: 70px;
+  height: 70px;
+  background-color: #71a1ff;
+  /* background-image: url("../assets/team_logos/Fnatic.png");
     background-size: 70px 70px;
     background-color: #1a1c1b; */
 }
 
 .right_name {
-    width: 325px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    font-size: 32px;
-    color: #FFFFFF;
-    background-color: #99BCFF;
-    /* background-color: #282b29; */
+  width: 325px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  background-color: #99bcff;
+  /* background-color: #282b29; */
 }
 
 .right_score {
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    font-size: 32px;
-    color: #FFFFFF;
-    background-color: #71A1FF;
-    /* background-color: #1a1c1b; */
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  background-color: #71a1ff;
+  /* background-color: #1a1c1b; */
 }
 
 .left_defuse {
-    width: 395px;
-    height: 25px;
-    background-color: #FF6BE7;
+  width: 395px;
+  height: 25px;
+  background-color: #ff6be7;
 }
 
 .match_status {
-    width: 290px;
-    height: 25px;
-    background-color: #FFA3F6;
+  width: 290px;
+  height: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffa3f6;
+}
+
+.left_match_wins {
+  width: 70px;
+  height: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ff6;
+}
+
+.left_match_one {
+  width: 35px;
+  height: 25px;
+  background-image: url("../assets/elements/t_square.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 12px;
+}
+
+.left_match_two {
+  width: 35px;
+  height: 25px;
+  background-image: url("../assets/elements/t_square_full.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 12px;
+}
+
+.match_length {
+  width: 150px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #f5d2f2;
+}
+
+.right_match_wins {
+  width: 70px;
+  height: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ff7;
+}
+
+.right_match_one {
+  width: 35px;
+  height: 25px;
+  background-image: url("../assets/elements/ct_square_full.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 12px;
+}
+
+.right_match_two {
+  width: 35px;
+  height: 25px;
+  background-image: url("../assets/elements/ct_square.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 12px;
 }
 
 .right_defuse {
-    width: 395px;
-    height: 25px;
-    background-color: #FF6BE7;
+  width: 395px;
+  height: 25px;
+  background-color: #ff6be7;
 }
