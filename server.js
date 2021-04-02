@@ -1,20 +1,30 @@
-
-// const express = require('express');
-// const app = express();
-// const io = require('socket.io')(http);
-// server = app.listen(1338, () => console.log("Listening on 1337"));
-// app.use(express.static('game_int_testing'));
-
-// io.on('connection', (socket) => {
-//     console.log('a user connected');
-// });
-
-
 var express = require('express');
 var app = express();
 var server = app.listen(1338);
 
 app.use(express.static('public'));
+// app.use(express.static('game_int_testing'));
+
+const fs = require('fs');
+// while (true) {
+//     setTimeout( function () {
+//         let rawdata = JSON.parse(fs.readFileSync('game_int_testing/test_json/0.json'));
+//         console.log(rawdata);
+//     }, 1000);
+// }
+var file_counter = 0
+function read_send_data() {
+    if (file_counter == 8) {
+        file_counter = 0
+    }
+    let rawdata = JSON.parse(fs.readFileSync(`game_int_testing/test_json/${file_counter}.json`));
+
+    console.log(rawdata);
+    send_data(rawdata);
+
+    file_counter += 1
+}
+setInterval(read_send_data, 1000);
 
 var socketio = require('socket.io');
 
@@ -27,7 +37,6 @@ socket.on('connection', function(socket) {
 function send_data(data) {
     socket.emit('new_data', data);
 }
-
 
 
 const http2 = require('http'),
@@ -53,3 +62,6 @@ cs_listener = http2.createServer((req, res) => {
   });
 });
 cs_listener.listen("1337");
+
+
+

@@ -1,0 +1,719 @@
+{
+    "provider": {
+      "name": "Counter-Strike: Global Offensive",
+      "appid": 730,
+      "version": 13786,
+      "steamid": "76561198075400992",
+      "timestamp": 1617368594
+    },
+    "map": {
+      "mode": "competitive",
+      "name": "de_mirage",
+      "phase": "live",
+      "round": 3,
+      "team_ct": {
+        "score": 2,
+        "name": "team_Stig11234",
+        "consecutive_round_losses": 1,
+        "timeouts_remaining": 1,
+        "matches_won_this_series": 0
+      },
+      "team_t": {
+        "score": 1,
+        "name": "team_Hartz9",
+        "consecutive_round_losses": 1,
+        "timeouts_remaining": 1,
+        "matches_won_this_series": 0
+      },
+      "num_matches_to_win_series": 0,
+      "current_spectators": 0,
+      "souvenirs_total": 0
+    },
+    "round": {
+      "phase": "live"
+    },
+    "player": {
+      "steamid": "76561198970726310",
+      "name": "Vladya2007",
+      "observer_slot": 4,
+      "team": "CT",
+      "activity": "playing",
+      "state": {
+        "health": 100,
+        "armor": 100,
+        "helmet": true,
+        "flashed": 0,
+        "smoked": 0,
+        "burning": 0,
+        "money": 50,
+        "round_kills": 0,
+        "round_killhs": 0,
+        "round_totaldmg": 0,
+        "equip_value": 1500
+      }
+    },
+    "allplayers": {
+      "76561198075400992": {
+        "clan": "rat ᠌",
+        "name": "Ryth_",
+        "observer_slot": 1,
+        "team": "CT",
+        "state": {
+          "health": 100,
+          "armor": 100,
+          "helmet": true,
+          "flashed": 0,
+          "burning": 0,
+          "money": 200,
+          "round_kills": 0,
+          "round_killhs": 0,
+          "round_totaldmg": 0,
+          "equip_value": 6050
+        },
+        "match_stats": {
+          "kills": 3,
+          "assists": 2,
+          "deaths": 1,
+          "mvps": 1,
+          "score": 8
+        },
+        "weapons": {
+          "weapon_0": {
+            "name": "weapon_knife",
+            "paintkit": "default",
+            "type": "Knife",
+            "state": "holstered"
+          },
+          "weapon_1": {
+            "name": "weapon_p250",
+            "paintkit": "sp_kimono_diamonds",
+            "type": "Pistol",
+            "ammo_clip": 13,
+            "ammo_clip_max": 13,
+            "ammo_reserve": 26,
+            "state": "holstered"
+          },
+          "weapon_2": {
+            "name": "weapon_awp",
+            "paintkit": "sp_mesh_tan",
+            "type": "SniperRifle",
+            "ammo_clip": 10,
+            "ammo_clip_max": 10,
+            "ammo_reserve": 30,
+            "state": "active"
+          }
+        },
+        "position": "-1269.47, -958.46, -167.97",
+        "forward": "0.75, 0.66, -0.09"
+      },
+      "76561198302524752": {
+        "clan": "ga͏mesense",
+        "name": "KuntaKinteKK",
+        "observer_slot": 6,
+        "team": "T",
+        "state": {
+          "health": 100,
+          "armor": 100,
+          "helmet": true,
+          "flashed": 0,
+          "burning": 0,
+          "money": 100,
+          "round_kills": 0,
+          "round_killhs": 0,
+          "round_totaldmg": 0,
+          "equip_value": 4200
+        },
+        "match_stats": {
+          "kills": 3,
+          "assists": 0,
+          "deaths": 3,
+          "mvps": 0,
+          "score": 6
+        },
+        "weapons": {
+          "weapon_0": {
+            "name": "weapon_knife_css",
+            "paintkit": "am_zebra",
+            "type": "Knife",
+            "state": "active"
+          },
+          "weapon_1": {
+            "name": "weapon_glock",
+            "paintkit": "cu_glock_indigo",
+            "type": "Pistol",
+            "ammo_clip": 20,
+            "ammo_clip_max": 20,
+            "ammo_reserve": 120,
+            "state": "holstered"
+          },
+          "weapon_2": {
+            "name": "weapon_ak47",
+            "paintkit": "hy_mesh_safetyorange",
+            "type": "Rifle",
+            "ammo_clip": 30,
+            "ammo_clip_max": 30,
+            "ammo_reserve": 90,
+            "state": "holstered"
+          },
+          "weapon_3": {
+            "name": "weapon_smokegrenade",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "holstered"
+          }
+        },
+        "position": "388.73, 119.69, -231.44",
+        "forward": "0.07, -1.00, -0.05"
+      },
+      "76561198096410233": {
+        "name": "LiverpoolFC",
+        "observer_slot": 2,
+        "team": "CT",
+        "state": {
+          "health": 100,
+          "armor": 100,
+          "helmet": true,
+          "flashed": 0,
+          "burning": 0,
+          "money": 50,
+          "round_kills": 0,
+          "round_killhs": 0,
+          "round_totaldmg": 0,
+          "equip_value": 4150
+        },
+        "match_stats": {
+          "kills": 1,
+          "assists": 0,
+          "deaths": 2,
+          "mvps": 0,
+          "score": 2
+        },
+        "weapons": {
+          "weapon_0": {
+            "name": "weapon_knife",
+            "paintkit": "default",
+            "type": "Knife",
+            "state": "active"
+          },
+          "weapon_1": {
+            "name": "weapon_usp_silencer",
+            "paintkit": "cu_usps_blueprint",
+            "type": "Pistol",
+            "ammo_clip": 12,
+            "ammo_clip_max": 12,
+            "ammo_reserve": 24,
+            "state": "holstered"
+          },
+          "weapon_2": {
+            "name": "weapon_m4a1_silencer",
+            "paintkit": "gs_m4a1_decimator",
+            "type": "Rifle",
+            "ammo_clip": 25,
+            "ammo_clip_max": 25,
+            "ammo_reserve": 75,
+            "state": "holstered"
+          },
+          "weapon_3": {
+            "name": "weapon_decoy",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "holstered"
+          }
+        },
+        "position": "-1166.27, -803.63, -167.97",
+        "forward": "0.07, 0.97, -0.22"
+      },
+      "76561198076628040": {
+        "name": "RDZ-",
+        "observer_slot": 3,
+        "team": "CT",
+        "state": {
+          "health": 100,
+          "armor": 100,
+          "helmet": true,
+          "flashed": 0,
+          "burning": 0,
+          "money": 300,
+          "round_kills": 0,
+          "round_killhs": 0,
+          "round_totaldmg": 0,
+          "equip_value": 2500
+        },
+        "match_stats": {
+          "kills": 5,
+          "assists": 0,
+          "deaths": 0,
+          "mvps": 0,
+          "score": 10
+        },
+        "weapons": {
+          "weapon_0": {
+            "name": "weapon_knife_butterfly",
+            "paintkit": "am_marble_fade",
+            "type": "Knife",
+            "state": "active"
+          },
+          "weapon_1": {
+            "name": "weapon_deagle",
+            "paintkit": "gs_deagle_exo",
+            "type": "Pistol",
+            "ammo_clip": 7,
+            "ammo_clip_max": 7,
+            "ammo_reserve": 35,
+            "state": "holstered"
+          },
+          "weapon_2": {
+            "name": "weapon_smokegrenade",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "holstered"
+          },
+          "weapon_3": {
+            "name": "weapon_hegrenade",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "holstered"
+          },
+          "weapon_4": {
+            "name": "weapon_flashbang",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "holstered"
+          }
+        },
+        "position": "-1857.63, -498.70, -167.97",
+        "forward": "-0.39, 0.92, -0.09"
+      },
+      "76561198131761537": {
+        "clan": "Brexit ؜Peek",
+        "name": "Pipsayyy",
+        "observer_slot": 7,
+        "team": "T",
+        "state": {
+          "health": 100,
+          "armor": 100,
+          "helmet": true,
+          "flashed": 0,
+          "burning": 0,
+          "money": 800,
+          "round_kills": 0,
+          "round_killhs": 0,
+          "round_totaldmg": 0,
+          "equip_value": 4700
+        },
+        "match_stats": {
+          "kills": 0,
+          "assists": 1,
+          "deaths": 3,
+          "mvps": 0,
+          "score": 1
+        },
+        "weapons": {
+          "weapon_0": {
+            "name": "weapon_knife_stiletto",
+            "paintkit": "hy_ddpat",
+            "type": "Knife",
+            "state": "holstered"
+          },
+          "weapon_1": {
+            "name": "weapon_glock",
+            "paintkit": "aa_glock_18_urban_moon_fever",
+            "type": "Pistol",
+            "ammo_clip": 20,
+            "ammo_clip_max": 20,
+            "ammo_reserve": 120,
+            "state": "holstered"
+          },
+          "weapon_2": {
+            "name": "weapon_ak47",
+            "paintkit": "gs_ak47_bloodsport",
+            "type": "Rifle",
+            "ammo_clip": 30,
+            "ammo_clip_max": 30,
+            "ammo_reserve": 90,
+            "state": "holstered"
+          },
+          "weapon_3": {
+            "name": "weapon_flashbang",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "holstered"
+          },
+          "weapon_4": {
+            "name": "weapon_smokegrenade",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "active"
+          },
+          "weapon_5": {
+            "name": "weapon_hegrenade",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "holstered"
+          }
+        },
+        "position": "601.02, -1510.05, -263.97",
+        "forward": "-0.38, -0.93, -0.00"
+      },
+      "76561198847733823": {
+        "name": "Hartz9",
+        "observer_slot": 8,
+        "team": "T",
+        "state": {
+          "health": 100,
+          "armor": 100,
+          "helmet": true,
+          "flashed": 0,
+          "burning": 0,
+          "money": 100,
+          "round_kills": 0,
+          "round_killhs": 0,
+          "round_totaldmg": 0,
+          "equip_value": 4400
+        },
+        "match_stats": {
+          "kills": 1,
+          "assists": 0,
+          "deaths": 3,
+          "mvps": 0,
+          "score": 2
+        },
+        "weapons": {
+          "weapon_0": {
+            "name": "weapon_knife_butterfly",
+            "paintkit": "aq_forced",
+            "type": "Knife",
+            "state": "active"
+          },
+          "weapon_1": {
+            "name": "weapon_glock",
+            "paintkit": "so_red",
+            "type": "Pistol",
+            "ammo_clip": 20,
+            "ammo_clip_max": 20,
+            "ammo_reserve": 120,
+            "state": "holstered"
+          },
+          "weapon_2": {
+            "name": "weapon_ak47",
+            "paintkit": "gs_ak47_supercharged",
+            "type": "Rifle",
+            "ammo_clip": 30,
+            "ammo_clip_max": 30,
+            "ammo_reserve": 90,
+            "state": "holstered"
+          },
+          "weapon_3": {
+            "name": "weapon_smokegrenade",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "holstered"
+          },
+          "weapon_4": {
+            "name": "weapon_flashbang",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "holstered"
+          }
+        },
+        "position": "376.31, 367.26, -260.62",
+        "forward": "-0.21, -0.97, -0.09"
+      },
+      "76561198402165387": {
+        "name": "Paayaazitoo",
+        "observer_slot": 9,
+        "team": "T",
+        "state": {
+          "health": 100,
+          "armor": 100,
+          "helmet": true,
+          "flashed": 0,
+          "burning": 0,
+          "money": 150,
+          "round_kills": 0,
+          "round_killhs": 0,
+          "round_totaldmg": 0,
+          "equip_value": 3600
+        },
+        "match_stats": {
+          "kills": 0,
+          "assists": 0,
+          "deaths": 3,
+          "mvps": 0,
+          "score": 0
+        },
+        "weapons": {
+          "weapon_0": {
+            "name": "weapon_knife_t",
+            "paintkit": "default",
+            "type": "Knife",
+            "state": "active"
+          },
+          "weapon_1": {
+            "name": "weapon_galilar",
+            "paintkit": "default",
+            "type": "Rifle",
+            "ammo_clip": 35,
+            "ammo_clip_max": 35,
+            "ammo_reserve": 90,
+            "state": "holstered"
+          },
+          "weapon_2": {
+            "name": "weapon_smokegrenade",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "holstered"
+          },
+          "weapon_3": {
+            "name": "weapon_hegrenade",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "holstered"
+          }
+        },
+        "position": "1330.25, -1161.43, -167.97",
+        "forward": "-0.06, -0.99, -0.09"
+      },
+      "76561198970726310": {
+        "name": "Vladya2007",
+        "observer_slot": 4,
+        "team": "CT",
+        "state": {
+          "health": 100,
+          "armor": 100,
+          "helmet": true,
+          "flashed": 0,
+          "burning": 0,
+          "money": 50,
+          "round_kills": 0,
+          "round_killhs": 0,
+          "round_totaldmg": 0,
+          "equip_value": 1500
+        },
+        "match_stats": {
+          "kills": 2,
+          "assists": 0,
+          "deaths": 2,
+          "mvps": 0,
+          "score": 4
+        },
+        "weapons": {
+          "weapon_0": {
+            "name": "weapon_knife",
+            "paintkit": "default",
+            "type": "Knife",
+            "state": "holstered"
+          },
+          "weapon_1": {
+            "name": "weapon_fiveseven",
+            "paintkit": "default",
+            "type": "Pistol",
+            "ammo_clip": 20,
+            "ammo_clip_max": 20,
+            "ammo_reserve": 100,
+            "state": "active"
+          }
+        },
+        "position": "-1649.52, -1854.53, -269.51",
+        "forward": "-0.10, 0.99, 0.01"
+      },
+      "76561199046223026": {
+        "clan": "BEERPEEK-",
+        "name": "Pk27",
+        "observer_slot": 0,
+        "team": "T",
+        "state": {
+          "health": 100,
+          "armor": 100,
+          "helmet": true,
+          "flashed": 0,
+          "burning": 0,
+          "money": 0,
+          "round_kills": 0,
+          "round_killhs": 0,
+          "round_totaldmg": 0,
+          "equip_value": 4300
+        },
+        "match_stats": {
+          "kills": 2,
+          "assists": 0,
+          "deaths": 3,
+          "mvps": 1,
+          "score": 7
+        },
+        "weapons": {
+          "weapon_0": {
+            "name": "weapon_knife_t",
+            "paintkit": "default",
+            "type": "Knife",
+            "state": "holstered"
+          },
+          "weapon_1": {
+            "name": "weapon_glock",
+            "paintkit": "gs_glock_thunder_dust",
+            "type": "Pistol",
+            "ammo_clip": 20,
+            "ammo_clip_max": 20,
+            "ammo_reserve": 120,
+            "state": "holstered"
+          },
+          "weapon_2": {
+            "name": "weapon_ak47",
+            "paintkit": "gs_ak47_empress",
+            "type": "Rifle",
+            "ammo_clip": 30,
+            "ammo_clip_max": 30,
+            "ammo_reserve": 90,
+            "state": "active"
+          },
+          "weapon_3": {
+            "name": "weapon_flashbang",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "holstered"
+          }
+        },
+        "position": "377.84, 71.48, -218.92",
+        "forward": "-0.63, -0.78, 0.02"
+      },
+      "76561198056126051": {
+        "name": "Stig11234",
+        "observer_slot": 5,
+        "team": "CT",
+        "state": {
+          "health": 100,
+          "armor": 100,
+          "helmet": true,
+          "flashed": 0,
+          "burning": 0,
+          "money": 50,
+          "round_kills": 0,
+          "round_killhs": 0,
+          "round_totaldmg": 0,
+          "equip_value": 6450
+        },
+        "match_stats": {
+          "kills": 4,
+          "assists": 1,
+          "deaths": 1,
+          "mvps": 1,
+          "score": 9
+        },
+        "weapons": {
+          "weapon_0": {
+            "name": "weapon_knife_falchion",
+            "paintkit": "hy_webs",
+            "type": "Knife",
+            "state": "holstered"
+          },
+          "weapon_1": {
+            "name": "weapon_usp_silencer",
+            "paintkit": "cu_usp_elegant",
+            "type": "Pistol",
+            "ammo_clip": 12,
+            "ammo_clip_max": 12,
+            "ammo_reserve": 24,
+            "state": "holstered"
+          },
+          "weapon_2": {
+            "name": "weapon_awp",
+            "paintkit": "hy_blam_simple",
+            "type": "SniperRifle",
+            "ammo_clip": 10,
+            "ammo_clip_max": 10,
+            "ammo_reserve": 30,
+            "state": "active"
+          },
+          "weapon_3": {
+            "name": "weapon_flashbang",
+            "paintkit": "default",
+            "type": "Grenade",
+            "ammo_reserve": 1,
+            "state": "holstered"
+          }
+        },
+        "position": "-748.59, -2258.20, -179.97",
+        "forward": "0.74, 0.67, -0.03"
+      }
+    },
+    "phase_countdowns": {
+      "phase": "live",
+      "phase_ends_in": "108.4"
+    },
+    "previously": {
+      "allplayers": {
+        "76561198075400992": {
+          "position": "-1291.76, -966.32, -167.97",
+          "forward": "0.95, 0.29, -0.13"
+        },
+        "76561198302524752": {
+          "position": "382.36, 158.22, -246.67"
+        },
+        "76561198096410233": {
+          "position": "-1171.57, -842.32, -167.97",
+          "forward": "0.06, 0.97, -0.22"
+        },
+        "76561198076628040": {
+          "position": "-1840.42, -531.57, -167.97",
+          "forward": "-0.39, 0.92, -0.08"
+        },
+        "76561198131761537": {
+          "position": "614.61, -1476.32, -263.72"
+        },
+        "76561198847733823": {
+          "position": "389.27, 400.96, -262.37",
+          "forward": "-0.27, -0.96, -0.09"
+        },
+        "76561198402165387": {
+          "position": "1332.79, -1120.50, -167.97"
+        },
+        "76561198970726310": {
+          "position": "-1652.85, -1821.26, -267.81"
+        },
+        "76561199046223026": {
+          "position": "372.68, 104.67, -228.93",
+          "forward": "-0.62, -0.79, 0.03"
+        },
+        "76561198056126051": {
+          "weapons": {
+            "weapon_2": {
+              "state": "holstered"
+            },
+            "weapon_3": {
+              "name": "weapon_smokegrenade",
+              "ammo_reserve": 0,
+              "state": "active"
+            },
+            "weapon_4": {
+              "name": "weapon_flashbang",
+              "paintkit": "default",
+              "type": "Grenade",
+              "ammo_reserve": 1,
+              "state": "holstered"
+            }
+          },
+          "position": "-715.19, -2257.60, -179.97",
+          "forward": "0.74, 0.67, -0.02"
+        }
+      },
+      "phase_countdowns": {
+        "phase_ends_in": "108.6"
+      }
+    },
+    "auth": {
+      "token": "120987"
+    }
+  }
