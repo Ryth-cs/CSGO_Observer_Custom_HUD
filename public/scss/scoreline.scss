@@ -1,0 +1,167 @@
+$t-primary-colour: #ffc554;
+$t-secondary-colour: #f6dc97;
+$ct-primary-colour: #71a1ff;
+$ct-secondary-colour: #99bfff;
+
+.hud {
+  width: 1080px;
+  height: 540px;
+}
+
+.base {
+  width: 1080px;
+  height: 95px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+%logo_box {
+  width: 70px;
+  height: 70px;
+}
+
+.left_logo {
+  @extend %logo_box;
+  background-color: $t-primary-colour;
+}
+
+.right_logo {
+  @extend %logo_box;
+  background-color: $ct-primary-colour;
+}
+
+%name_box {
+  width: 325px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.left_name {
+  @extend %name_box;
+  background-color: $t-secondary-colour;
+}
+
+.right_name {
+  @extend %name_box;
+  background-color: $ct-secondary-colour;
+}
+
+%score_box {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.left_score {
+  @extend %score_box;
+  background-color: #ffc554;
+}
+
+.right_score {
+  @extend %score_box;
+  background-color: #71a1ff;
+}
+
+.timer_round {
+  width: 150px;
+  height: 70px;
+  background-color: #282b29;
+  /* opacity: 0.8; */
+}
+
+.top_timer {
+  width: 150px;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  background-color: #69ffb7;
+}
+
+.bot_timer {
+  width: 150px;
+  height: 29px;
+  line-height: 29px;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #69ffff;
+}
+
+.defuse_box {
+  width: 395px;
+  height: 25px;
+  background-color: #ff6be7;
+}
+
+.match_status {
+  width: 290px;
+  height: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffa3f6;
+}
+
+.match_wins_box {
+  width: 70px;
+  height: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ff6;
+}
+
+.match_box {
+  width: 35px;
+  height: 25px;
+  display: grid;
+  place-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 12px;
+}
+
+.match_length {
+  width: 150px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #f5d2f2;
+}
+
+%game_win_box {
+  width: 10px;
+  height: 10px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.left_match_one_square {
+  @extend %game_win_box;
+  border-color: $t-primary-colour;
+  background-color: $t-primary-colour;
+}
+
+.left_match_two_square {
+  @extend %game_win_box;
+  border-color: $t-primary-colour;
+}
+
+.right_match_one_square {
+  @extend %game_win_box;
+  border-color: $ct-primary-colour;
+}
+
+.right_match_two_square {
+  @extend %game_win_box;
+  border-color: $ct-primary-colour;
+  background-color: $ct-primary-colour;
+}
